@@ -1,0 +1,121 @@
+/*@font-face{
+    font-family: mitipo;
+    src:url(fuente.woff)
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background: #16A085;
+}
+.menu{
+    text-align: center;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    padding: 45px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menu a:hover{
+    background: #1ABC9C
+}
+.gris{
+    background: #333333;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 90px;
+}
+.hierba{
+    height: 400px;
+    background: url(../proyecto/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dos_col{
+    width:1024px;
+    margin: auto;
+}
+.dos_col .col_left{
+    width: 600px;
+    display: inline-block; /*Eliminst para que se vea uno al lado del otro*/
+    vertical-align: top;
+    padding-left: 60px;
+}
+.dos_col .col_right col{
+    width: 400px;
+    display: inline-block; /* Eliminar para que se vea una columna al lado de otro*/
+    vertical-align: top;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.dos_col .col_right ul{
+    padding: 0;
+}
+.dos_col .col_right a{
+    color:#333333;
+}
+.dos_col .col_right a:hover{
+    text-decoration: none;
+}
+.dos_col .col_right li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.tres_col{
+    background: #1E1B1A;
+    color: white;
+    width: 1024px;
+    margin: auto;
+}
+.tres_col a{
+    color:white
+}
+.col{
+    display: inline-block;
+    vertical-align: top;
+}
+.tres_col .col{
+    width: 330px;
+    
+}
+.tres_col_wrapper{
+    background: #1E1B1A;
+    padding: 40px;
+}
+.tres_col_wrapper ul{
+    padding:0;
+    
+}
+.tres_col_wrapper li{
+    list-style: none;
+    margin-bottom: 10px;
+ 
+}
+.footer{
+    background: #16A085;
+    padding: 60px;
+    text-align: center;
+    color:white;
+}
+/*Aca pueden ir las modificaciones de las RS*/
+.readmore{
+    display: inline-block;
+    padding: 20px;
+    background: #16A085;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+h2{
+    color:#16A085;
+}
